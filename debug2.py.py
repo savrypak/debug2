@@ -16,6 +16,7 @@ def score_to_letter_grade(grade):
     else:
         return "F"
 print("Grade of 90 should be A: " + score_to_letter_grade(90))
+print("Grade of 90 should be A: " + score_to_letter_grade(98))
 print("Grade of 87 should be B+: " + score_to_letter_grade(87))
 print("Grade of 81 should be B: " + score_to_letter_grade(81))
 print("Grade of 77 should be C+: " + score_to_letter_grade(77))
@@ -23,4 +24,4 @@ print("Grade of 70 should be C: " + score_to_letter_grade(70))
 print("Grade of 67 should be D+: " + score_to_letter_grade(67))
 print("Grade of 60 should be D: " + score_to_letter_grade(60))
 print("Grade of 59 should be F: " + score_to_letter_grade(59))
-
+print("Grade of 59 should be F: " + score_to_letter_grade(59))
